@@ -956,8 +956,11 @@ function trial1RoutineEnd(trials1) {
     psychoJS.experiment.addData('trial1Mouse.rightButton', trial1Mouse.rightButton);
     psychoJS.experiment.addData('trial1Mouse.time', trial1Mouse.time);
     
-    thisExp.addData("step", steps);
-    thisExp.addData("targetangle_deg", targetangle);
+    //thisExp.addData("step", steps);
+    //thisExp.addData("targetangle_deg", targetangle);
+    psychoJS.experiment.addData('trial1Step', steps);
+    psychoJS.experiment.addData('targetangle_deg', targetangle)
+
     
     psychoJS.experiment.addData('trial1Skip.keys', trial1Skip.keys);
     if (typeof trial1Skip.keys !== 'undefined') {  // we had a response
@@ -1409,8 +1412,11 @@ function trial2RoutineEnd(trials2) {
     psychoJS.experiment.addData('trial2Mouse.rightButton', trial2Mouse.rightButton);
     psychoJS.experiment.addData('trial2Mouse.time', trial2Mouse.time);
     
-    thisExp.addData("step", steps);
-    thisExp.addData("targetangle_deg", targetangle);
+    //thisExp.addData("step", steps);
+    //thisExp.addData("targetangle_deg", targetangle);
+    psychoJS.experiment.addData('trial2Step', steps);
+    psychoJS.experiment.addData('targetangle_deg', targetangle)
+
     
     psychoJS.experiment.addData('trial2Skip.keys', trial2Skip.keys);
     if (typeof trial2Skip.keys !== 'undefined') {  // we had a response
@@ -1862,8 +1868,11 @@ function trial3RoutineEnd(trials3) {
     psychoJS.experiment.addData('trial3Mouse.rightButton', trial3Mouse.rightButton);
     psychoJS.experiment.addData('trial3Mouse.time', trial3Mouse.time);
     
-    thisExp.addData("step", steps);
-    thisExp.addData("targetangle_deg", targetangle);
+    //thisExp.addData("step", steps);
+    //thisExp.addData("targetangle_deg", targetangle);
+    psychoJS.experiment.addData('trial3Step', steps);
+    psychoJS.experiment.addData('targetangle_deg', targetangle)
+
     
     psychoJS.experiment.addData('trial3Skip.keys', trial3Skip.keys);
     if (typeof trial3Skip.keys !== 'undefined') {  // we had a response
